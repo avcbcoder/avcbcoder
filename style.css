@@ -1,3 +1,7 @@
+.clr {
+    clear: both;
+}
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -14,31 +18,26 @@ nav {
     background-color: #F2F3F7;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-right: solid 1px #333;
+    border-right: solid 3px #979aa3;
 }
 
 nav a {
-    display: inline-block;
-    text-decoration: none;
     padding: 5px 15px;
     font-size: 0.9em;
     font-weight: bold;
-    color: #222c6a;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     position: relative;
     padding: 10px 0;
     font-family: "Quicksand", Arial, sans-serif;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -55,11 +54,75 @@ nav a:after {
     right: 0;
     background-color: #2c98f0;
     visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
     transform: scaleX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+nav a:active {
+    color: #2c98f0;
+}
+
+nav a:active:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 nav img {
     width: 200px;
     height: 200px;
+}
+
+#nav-details {
+    font-size: 12px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -26px;
+    width: auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-details-left {
+    color: #2c98f0;
+    float: left;
+}
+
+#nav-details-right {
+    float: left;
+}
+
+main {
+    margin-left: 280px;
+}
+
+h2 {
+    font-family: "Quicksand";
 }
