@@ -1,10 +1,42 @@
-.full{
+.full {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#skills{
-    border: 5px solid red;
+#skills {
+    /* border: 5px solid red; */
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.accordion-item {
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.accordion-title {
+    width: 100%;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #2D98F0;
+    text-align: left;
+    border: 1px solid white;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    height: 50px;
+}
+
+.accordion-content {
+    border: 2px solid #E6E6E6;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    overflow: hidden;
+    /* display: none; */
 }
