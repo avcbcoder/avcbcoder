@@ -1,0 +1,10 @@
+.full{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills{
+    border: 5px solid red;
+}
