@@ -1,8 +1,5 @@
 .full {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #skills {
@@ -13,16 +10,15 @@
 
 .accordion-item {
     width: 100%;
-    padding: 5px 20px;
 }
 
 .accordion-title {
     width: 100%;
     cursor: pointer;
-    color: #FFF;
-    background-color: #2D98F0;
+    color: #3E3E3E;
+    background-color: #F2F3F7;
     text-align: left;
-    border: 1px solid white;
+    border: 1px solid #E6E6E6;
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
@@ -30,13 +26,34 @@
     font-weight: 500;
     display: block;
     height: 50px;
+    padding-top: 6px;
+    margin-bottom: 5px;
+    /*should be same as bottom margin of content*/
+    outline: none;
+}
+
+.accordion-title.active, .accordion-title:hover {
+    color: #FFF;
+    background-color: #2D98F0;
+    border: 1px solid white;
 }
 
 .accordion-content {
-    border: 2px solid #E6E6E6;
-    margin-top: 8px;
+    /* border: 1px solid #E6E6E6; */
     margin-bottom: 0px;
     padding-left: 5px;
     overflow: hidden;
-    /* display: none; */
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-title:after {
+    content: '\02795';
+    font-size: 14px;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion-title.active:after {
+    content: '\02796';
 }
