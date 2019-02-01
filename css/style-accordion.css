@@ -4,31 +4,27 @@
     src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
-  }
-  
-  body {
-    font-family: "Quicksand", Arial, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.8;
-    color: rgba(0, 0, 0, 0.7);
-  }
-    
-  h1, h2, h3, h4, h5, h6 {
+}
+
+h1, h2, h3, h4, h5, h6 {
     color: #000;
     font-family: "Playfair Display", Georgia, serif;
     font-weight: 400;
     margin: 0 0 30px 0;
-  }
+}
 
 .full {
     height: 100vh;
 }
 
-#skills {
-    /* border: 5px solid red; */
+#education {
     padding-left: 20px;
     padding-right: 100px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .accordion-item {
