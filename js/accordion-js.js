@@ -17,6 +17,7 @@ window.onload = function () {
 
     for (let i = 0; i < accordionTitle.length; i++) { // add click listener for each panel heading
         accordionTitle[i].addEventListener("click", function () {
+            console.log('hey')
             var newAccordion = -1;
             for (let j = 0; j < 3; j++)  // set newAccordion to the one which is clicked
                 if (accordionTitle[j] == this)
