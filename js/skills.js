@@ -61,6 +61,7 @@
     for (let i = 0; i < 4; i++)
         addProgressBar('#android', skillsData.android[i].k, skillsData.android[i].v)
 
+    // function to add a progress bar of random color with given name(key) and %(value) to the given id 
     function addProgressBar(id, key, value) {
         $(id).append(`
         <div class="row animate-box" data-animate-effect="fadeInLeft">

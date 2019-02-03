@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="css/style-slider.css">
     <link rel="stylesheet" href="css/style-accordion.css">
     <link rel="stylesheet" href="css/style-timeline.css">
     <link rel="stylesheet" href="css/style-card-skills.css">
@@ -38,6 +39,49 @@
         <a href="#achievements">Achievements</a>
     </nav>
     <main>
+
+        <section id="about">
+            <section id="colorlib-hero" class="js-fullheight" data-section="home">
+                <div class="flexslider js-fullheight">
+                    <ul class="slides">
+                        <li style="background-image: url(images/bkg1.jpg);">
+                            <div class="overlay"></div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                        <div class="slider-text-inner js-fullheight">
+                                            <div class="desc">
+                                                <h1>Hi! <br>I'm Jackson</h1>
+                                                <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/"
+                                                        target="_blank">colorlib.com</a></h2>
+                                                <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image: url(images/bkg2.jpg);">
+                            <div class="overlay"></div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                        <div class="slider-text-inner">
+                                            <div class="desc">
+                                                <h1>I am <br>a Designer</h1>
+                                                <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/"
+                                                        target="_blank">colorlib.com</a></h2>
+                                                <p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
 
         <section id="experience">
             <div>
@@ -200,41 +244,6 @@
             <div class="row" style="margin-top: 60px;">
             </div>
             <div class="row">
-                <div class="col-lg-4 text-center animate-box">
-                    <div class="skills-card color-1">
-                        <span class="icon">
-                            <i class="icon-bulb"></i>
-                        </span>
-                        <div class="desc">
-                            <h3>Competitive Programming</h3>
-                            <p>Coming Soon Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                doloribus molestias</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-6" id="cp">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6" id="android">
-                    
-                </div>
-                <div class="col-lg-2"></div>
-                <div class="col-md-4 text-center animate-box">
-                    <div class="skills-card color-2">
-                        <span class="icon">
-                            <i class="icon-phone3"></i>
-                        </span>
-                        <div class="desc">
-                            <h3>Android Development</h3>
-                            <p>Coming Soon Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                doloribus molestias .</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-4 text-center animate-box">
                     <div class="skills-card color-3">
                         <span class="icon">
@@ -251,6 +260,40 @@
                 <div class="col-lg-6" id="web">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-6" id="android">
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-md-4 text-center animate-box">
+                    <div class="skills-card color-2">
+                        <span class="icon">
+                            <i class="icon-phone3"></i>
+                        </span>
+                        <div class="desc">
+                            <h3>Android Development</h3>
+                            <p>Coming Soon Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                doloribus molestias .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center animate-box">
+                    <div class="skills-card color-1">
+                        <span class="icon">
+                            <i class="icon-bulb"></i>
+                        </span>
+                        <div class="desc">
+                            <h3>Competitive Programming</h3>
+                            <p>Coming Soon Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                doloribus molestias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6" id="cp">
+                </div>
+            </div>
         </section>
 
     </main>
@@ -263,6 +306,10 @@
     <script src="js/accordion-js.js"></script>
     <script src="js/skills.js"></script>
     <script src="js/mainJs.js"></script>
+
+    <script src="js/libs/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/libs/owl.carousel.min.js"></script>
 </body>
 
 </html>
