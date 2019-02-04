@@ -13,9 +13,14 @@ nav {
     border-right: solid 3px #979aa3;
 }
 
+nav>h2{
+    margin-top: 20px;
+}
+
 nav a {
     padding: 5px 15px;
     font-size: 12px;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: rgba(0, 0, 0, 0.7);
@@ -65,7 +70,7 @@ nav a:hover:after {
     transform: scaleX(1);
 }
 
-nav a:active {
+nav a:active, nav a:focus {
     color: #2c98f0;
 }
 
@@ -86,6 +91,7 @@ nav img {
 #nav-details {
     font-size: 12px;
     font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 500;
     margin-top: -26px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -119,5 +125,13 @@ h2 {
 }
 
 .social-links>div{
-    transform: scale(1.4);
+    transform: scale(1.5);
+}
+
+.social-links a{
+    color: #2c98f0;
+}
+
+.social-links a:hover:after {
+    visibility: hidden;
 }
