@@ -14,6 +14,9 @@
     color: rgba(0, 0, 0, 0.7);
     height: 100vh;
     width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
 }
 
 .intro{
@@ -27,11 +30,12 @@
 }
 
 #slider-bkg {
-    position: fixed;
+    position: absolute;
     height: 100vh;
-    width: 100%;
     z-index: -1;
     opacity: 0.4;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 .btn-resume {

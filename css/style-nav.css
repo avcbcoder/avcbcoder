@@ -112,3 +112,12 @@ main {
 h2 {
     font-family: "Quicksand";
 }
+
+.social-links {
+    display: block;
+    margin-top: 20px;
+}
+
+.social-links>div{
+    transform: scale(1.4);
+}
