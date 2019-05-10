@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="css/style-timeline.css">
     <link rel="stylesheet" href="css/style-card-skills.css">
     <link rel="stylesheet" href="css/style-bar-skills.css">
+    <link rel="stylesheet" href="css/style-achievements.css">
     <link rel="stylesheet" href="css/style-projects.css">
+    <link rel="stylesheet" href="css/style-achv-table.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -26,7 +28,10 @@
 
 <body>
     <nav>
-        <img src="images/user.png" alt="avcb">
+        <div id="profile">
+            <img src="images/anky3.PNG" alt="avcb" style="border-radius: 50%; margin-left: -5px;">
+            <div></div>
+        </div>
         <h2>Ankit Verma</h2>
         <div id="nav-details">
             <p id="nav-details-left">Comp.Sci. </p>
@@ -41,7 +46,8 @@
         <div class="row social-links">
             <div class="col-lg-4">
                 <script>gen_mail_to_link('ankitvermamat@gmail.com', 'Hello from Portfolio');</script>
-                <a class="social-link-item" target="_blank" href="mailto:ankitvermamat@gmail.com?subject=Hello from Portfolio">
+                <a class="social-link-item" target="_blank"
+                    href="mailto:ankitvermamat@gmail.com?subject=Hello from Portfolio">
                     <i class="fa fa-fw fa-envelope"></i>
                 </a>
             </div>
@@ -66,7 +72,8 @@
                     (Nodejs) |
                     Active competitive Programmer @Codechef/avcbcoder @hackerrank/avcbcoder | Looking for internship
                     opportunity</h2>
-                <p><a class="btn-resume" href="assets/Ankit's Resume 28 Nov.pdf" target="_blank">View Resume <i class="icon-download4"></i></a></p>
+                <p><a class="btn-resume" href="assets/Ankit Verma's Resume.pdf" target="_blank">View Resume <i
+                            class="icon-download4"></i></a></p>
             </div>
         </section>
 
@@ -163,7 +170,8 @@
                                             <li class="animate-box" data-animate-effect="fadeInRight">
                                                 Created problems for all competitive programming
                                                 events.
-                                            </li </ul> </div> </div> </article> <article class="timeline-entry begin animate-box"
+                                            </li </ul> </div> </div> </article> <article
+                                                class="timeline-entry begin animate-box"
                                                 data-animate-effect="fadeInBottom">
                                             <div class="timeline-entry-inner">
                                                 <div class="timeline-icon color-none">
@@ -187,35 +195,31 @@
                 <div class="accordion-item">
                     <button class="accordion-title">Bachelor Degree of Computer Science</button>
                     <div class="accordion-content">
-                        <p>
-                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.
-
-                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                            ocean.
-                        </p>
+                        <div class="row">
+                            <div class="col-md-6" style="font-weight: 500;">Govind Ballabh Pant Govt. Engineering
+                                college</div>
+                            <div class="col-md-6" style="text-align: right; padding-right: 30px; font-weight: 1000;">
+                                Current GPA : 7.8</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">(2016-2020)</div>
+                        </div>
+                        <br>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <button class="accordion-title">Panel 2</button>
                     <div class="accordion-content">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus tempora
-                            delectus ipsum eius ea ratione similique nobis! Eius cumque voluptatibus ipsam in, unde est
-                            corporis neque sed accusamus veritatis?
-                        </p>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <button class="accordion-title">Panel 3</button>
-                    <div class="accordion-content">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium possimus tempora
-                            delectus ipsum eius ea ratione similique nobis! Eius cumque voluptatibus ipsam in, unde est
-                            corporis neque sed accusamus veritatis?
-                        </p>
+                        <div class="row">
+                            <div class="col-md-6" style="font-weight: 500;">Rukmani Devi Jaipuria Public School</div>
+                            <div class="col-md-6" style="text-align: right; padding-right: 30px; font-weight: 1000;">
+                                Percentage : 75.4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">(CBSE)</div>
+                        </div>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -293,6 +297,96 @@
             <!-- Elements will be added dynamically by jQuery -->
         </section>
 
+        <!-- <section id="achievements">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <span class="heading-meta">Achievements</span>
+                    <h2 class="colorlib-heading animate-box">Achievements</h2>
+                </div>
+            </div>
+            <div class="achv-wrapper animate-box fadeInLeft animated" sbv>
+                <div class="achv-item">
+                    <button class="achv-title">Bachelor Degree of Computer Science</button>
+                    <div class="achv-content">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean.
+                        </p>
+                    </div>
+                </div>
+                <div class="achv-item">
+                    <button class="achv-title">Bachelor Degree of Computer Science</button>
+                    <div class="achv-content">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean.
+                        </p>
+                    </div>
+                </div>
+                <div class="achv-item">
+                    <button class="achv-title">Bachelor Degree of Computer Science</button>
+                    <div class="achv-content">
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.
+
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="achievements">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <span class="heading-meta">Achievements</span>
+                    <h2 class="colorlib-heading animate-box">Achievements</h2>
+                </div>
+            </div>
+
+            <table id="achv01">
+                <thead>
+                    <tr>
+                        <th width="50%">Hiring Challenges</th>
+                        <th width="25%"></th>
+                        <th width="25%"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <table id="achv02">
+                <thead>
+                    <tr>
+                        <th width="50%">Online Competitive Contests</th>
+                        <th width="25%">Rank</th>
+                        <th width="25%">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <table id="achv03">
+                <thead>
+                    <tr>
+                        <th width="50%">College Contests</th>
+                        <th width="25%">Rank</th>
+                        <th width="25%">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+        <div style="height: 300px;"></div>
     </main>
 
     <script src="js/libs/jquery.min.js"></script>
@@ -304,6 +398,8 @@
     <script src="js/skills.js"></script>
     <script src="js/mainJs.js"></script>
     <script src="js/projects.js"></script>
+    <script src="js/achievements.js"></script>
+    <script src="js/achievement-table.js"></script>
 
     <!-- <script src="js/libs/jquery.flexslider-min.js"></script> -->
     <!-- Owl carousel -->

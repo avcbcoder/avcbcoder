@@ -1,23 +1,4 @@
-@font-face {
-    font-family: 'icomoon';
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #000;
-    font-family: "Playfair Display", Georgia, serif;
-    font-weight: 400;
-    margin: 0 0 30px 0;
-}
-
-.full {
-    height: 100vh;
-}
-
-#education {
+#achievements {
     padding-left: 70px;
     padding-right: 100px;
     font-family: "Quicksand", Arial, sans-serif;
@@ -27,11 +8,11 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(0, 0, 0, 0.7);
 }
 
-.accordion-item {
+.achv-item {
     width: 100%;
 }
 
-.accordion-title {
+.achv-title {
     width: 100%;
     cursor: pointer;
     color: #3E3E3E;
@@ -51,13 +32,13 @@ h1, h2, h3, h4, h5, h6 {
     outline: none;
 }
 
-.accordion-title.active, .accordion-title:hover {
+.achv-title.active, .achv-title:hover {
     color: #FFF;
     background-color: #2D98F0;
     border: 1px solid white;
 }
 
-.accordion-content {
+.achv-content {
     /* border: 1px solid #E6E6E6; */
     margin-bottom: 0px;
     padding-left: 5px;
@@ -66,20 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: max-height 0.2s ease-out;
 }
 
-.accordion-content-left {
-    float: left;
-}
-
-.accordion-content-right {
-    float: right;
-    margin-right: 20px;
-}
-
-.accordion-content-bottom {
-    float: left;
-}
-
-.accordion-title:after {
+.achv-title:after {
     font-family: "icomoon";
     content: '\e114';
     font-size: 14px;
@@ -87,6 +55,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
 }
 
-.accordion-title.active:after {
+.achv-title.active:after {
     content: '\e115';
 }

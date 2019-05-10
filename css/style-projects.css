@@ -6,7 +6,8 @@
     font-size: 15px;
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
-    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 #nav-projects h2 {

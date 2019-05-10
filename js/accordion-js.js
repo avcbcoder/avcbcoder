@@ -1,5 +1,7 @@
+var accordionItems=2;
 var educationTitle = ["BACHELOR DEGREE OF COMPUTER SCIENCE", "HIGH SCHOOL SECONDARY EDUCATION", ""];
-window.onload = function () {
+
+(function () {
     var accordionTitle = document.getElementsByClassName('accordion-title');
     var accordionContent = [];
     // document.getElementsByClassName('accordion-content');
@@ -19,7 +21,7 @@ window.onload = function () {
         accordionTitle[i].addEventListener("click", function () {
             console.log('hey')
             var newAccordion = -1;
-            for (let j = 0; j < 3; j++)  // set newAccordion to the one which is clicked
+            for (let j = 0; j < accordionItems; j++)  // set newAccordion to the one which is clicked
                 if (accordionTitle[j] == this)
                     newAccordion = j;
             // toggle currently clicked
@@ -36,7 +38,7 @@ window.onload = function () {
         var show = 1;
         if (accordionContent[curr].style.maxHeight) // show if height is 0 otherwise just hide
             show = 0
-        for (let j = 0; j < 3; j++) {// hide all content
+        for (let j = 0; j < accordionItems; j++) {// hide all content
             accordionContent[j].style.maxHeight = null;
             accordionContent[j].style.border = "0px solid #E6E6E6";
             accordionContent[j].style.marginBottom = "0px";
@@ -47,4 +49,4 @@ window.onload = function () {
             accordionContent[curr].style.marginBottom = "5px";
         }
     }
-}
+})()
