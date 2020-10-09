@@ -8,20 +8,22 @@
 
 - 🔭  Have a look at my recent project: [Collab][recentproject]!
 - 🌱  I’m currently learning Nodejs, reactjs.
-- 🥅  I try to solve issues people face by developing apps.Take a look at some of my [projects][allprojects]!  
+- 🥅  I try to solve issues people face by developing apps. Take a look at some of my [projects][allprojects]!  
 
 ### Connect with me:
 [<img align="left" alt="avcbcoder.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+<br/>
+<br/>
 
 ### Competitive programming profile:
-[<img align="left" alt="codechef" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/codechef-circle.png" />][codechef]
-[<img align="left" alt="codeforces" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/codeforces-circle.png" />][codeforces]
-[<img align="left" alt="hackerrank" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/hackerrank-circle.png" />][hackerrank]
-[<img align="left" alt="hackerearth" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/hackerearth-circle.png" />][hackerearth]
+[<img align="left" alt="codechef" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/codechef.png" />][codechef]
+[<img align="left" alt="codeforces" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/codeforces.png" />][codeforces]
+[<img align="left" alt="hackerrank" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/hackerrank.png" />][hackerrank]
+[<img align="left" alt="hackerearth" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/hackerearth.png" />][hackerearth]
 
-
-<br />
+<br/>
+<br/>
 
 ### Languages and Tools:
 
