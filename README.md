@@ -1,4 +1,4 @@
-### Hi there, I'm Ankit - aka [avcbcoder][website] 👋
+### Hi there, I'm Ankit - aka [avcbcoder][linkedin] 👋
 
 [![Website](https://img.shields.io/website?label=portfolio&style=for-the-badge&url=http%3A%2F%2Favcbcoder.github.io%2F)](http://avcbcoder.github.io/)
 [![resume](https://img.shields.io/website?label=resume&style=for-the-badge&url=https%3A%2F%2Favcbcoder.github.io%2Fresume.pdf)](https://avcbcoder.github.io/resume.pdf)
