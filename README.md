@@ -13,6 +13,7 @@
 ### Connect with me:
 [<img align="left" alt="avcbcoder.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
 <br/>
 <br/>
 
@@ -48,6 +49,7 @@
 [resume]: https://avcbcoder.github.io/resume.pdf
 [allprojects]: http://avc-collab.netlify.app/projects
 [linkedin]: https://www.linkedin.com/in/ankit-verma-03308215a/
+[gmail]: mailto:ankitvermamat@gmail.com?subject="Hello from github readme"
 [codechef]: https://www.codechef.com/users/avcbcoder
 [codeforces]: https://codeforces.com/profile/avcb
 [hackerearth]: https://www.hackerearth.com/@avcbcoder
