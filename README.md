@@ -49,8 +49,8 @@
 [resume]: https://avcbcoder.github.io/resume.pdf
 [allprojects]: http://avc-collab.netlify.app/projects
 [linkedin]: https://www.linkedin.com/in/ankit-verma-03308215a/
-[gmail]: mailto:ankitvermamat@gmail.com?subject="Hello from github readme"
 [codechef]: https://www.codechef.com/users/avcbcoder
 [codeforces]: https://codeforces.com/profile/avcb
 [hackerearth]: https://www.hackerearth.com/@avcbcoder
 [hackerrank]: https://hackerrank.com/avcbcoder
+[gmail]: mailto:ankitvermamat@gmail.com
