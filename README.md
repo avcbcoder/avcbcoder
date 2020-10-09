@@ -13,7 +13,12 @@
 ### Connect with me:
 
 [<img align="left" alt="avcbcoder.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="codechef" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/codechef-circle.png" />][codechef]
+[<img align="left" alt="codeforces" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/codeforces-circle.png" />][codeforces]
+[<img align="left" alt="hackerrank" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/hackerrank-circle.png" />][hackerrank]
+[<img align="left" alt="hackerearth" width="22px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder.github.io/master/images/dev-icon/hackerearth-circle.png" />][hackerearth]
+
 
 <br />
 
@@ -34,12 +39,13 @@
 <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br />
-<br />
-
----
 
 [website]: https://avcbcoder.github.io/
 [recentproject]: http://avc-collab.netlify.app/
 [resume]: https://avcbcoder.github.io/resume.pdf
 [allprojects]: http://avc-collab.netlify.app/projects
 [linkedin]: https://www.linkedin.com/in/ankit-verma-03308215a/
+[codechef]: https://www.codechef.com/users/avcbcoder
+[codeforces]: https://codeforces.com/profile/avcb
+[hackerearth]: https://www.hackerearth.com/@avcbcoder
+[hackerrank]: https://hackerrank.com/avcbcoder
