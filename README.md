@@ -19,6 +19,7 @@
 <br/>
 
 ### Spotify Playing 🎧
+
 <br/>
 <a href="https://open.spotify.com/user/avankyankit">
     <img src="https://av-nowplaying.herokuapp.com/now-playing/momo" width="256" height="64" alt="Now Playing"/>
