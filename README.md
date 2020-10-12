@@ -10,13 +10,6 @@
 - 🌱  I’m currently learning Nodejs, reactjs.
 - 🥅  I try to solve issues people face by developing apps. Take a look at some of my [projects][allprojects]!  
 
-### Connect with me:
-[<img align="left" alt="avcbcoder.github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
-<br/>
-<br/>
-
 ### Competitive programming profile:
 [<img align="left" alt="codechef" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/codechef.png" />][codechef]
 [<img align="left" alt="codeforces" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/codeforces.png" />][codeforces]
