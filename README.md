@@ -17,7 +17,6 @@
 [<img align="left" alt="hackerearth" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/hackerearth.png" />][hackerearth]
 
 <br/>
-<br/>
 
 ### Spotify Playing 🎧
 <br/>
@@ -26,8 +25,6 @@
 </a>
 
 <br/>
-<br/>
-
 
 ### Languages and Tools:
 
