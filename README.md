@@ -24,17 +24,16 @@
 [<img align="left" alt="hackerearth" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/hackerearth.png" />][hackerearth]
 
 <br/>
+<br/>
 
 ### Spotify Playing 🎧
-
-<a href="https://open.spotify.com/user/avankyankit">
+<br/>
+<a href="https://status.nmoo.dev/now-playing?open">
     <img src="https://av-nowplaying.herokuapp.com/now-playing/momo" width="256" height="64" alt="Now Playing">
 </a>
 
 <br/>
-
-
-
+<br/>
 ### Languages and Tools:
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
