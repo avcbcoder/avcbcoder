@@ -46,13 +46,6 @@
 <br />
 <br/>
 
-### Github contribution including private repo:
-
-
-[<img align="left" alt="Github Contrinution" width="100%" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/github-contribution.png" />][website]
-<br/>
-<br/>
-
 [website]: https://avcbcoder.github.io/
 [recentproject]: http://avc-collab.netlify.app/
 [resume]: https://avcbcoder.github.io/resume.pdf
