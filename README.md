@@ -4,11 +4,11 @@
 [![resume](https://img.shields.io/website?label=resume&style=for-the-badge&url=https%3A%2F%2Favcbcoder.github.io%2Fresume.pdf)](https://avcbcoder.github.io/resume.pdf)
 [![allprojects](https://img.shields.io/website?label=projects&style=for-the-badge&url=https%3A%2F%2Favcbcoder.github.io%2Fprojects)](https://avcbcoder.github.io/projects)
 
-## I'm a Full-stack Developer, Competitive Programmer!!
+## I'm a Software Engineer!!
 
-- 🔭  Have a look at my recent project: [Collab][recentproject]!
-- 🌱  I’m currently learning Nodejs, reactjs.
-- 🥅  I try to solve issues people face by developing apps. Take a look at some of my [projects][allprojects]!  
+- 🔭  Have a look at my recent project: [Rehearsal GPT][rehearsalproject]!
+- 🌱  I’m a Software Engineer who builds products from scratch, handling everything from ideation to development, backend, frontend, and deployment. 
+- 🥅  With expertise in scalable systems and AI, I create high-performance applications that solve real-world problems  
 
 ### Competitive programming profile:
 [<img align="left" alt="codechef" width="170px" src="https://raw.githubusercontent.com/avcbcoder/avcbcoder/master/images/codechef.png" />][codechef]
@@ -47,7 +47,8 @@
 <br/>
 
 [website]: https://avcbcoder.github.io/
-[recentproject]: http://avc-collab.netlify.app/
+[rehearsalproject]: https://rehearsalgpt.netlify.app/
+[collabproject]: http://avc-collab.netlify.app/
 [resume]: https://avcbcoder.github.io/resume.pdf
 [allprojects]: http://avc-collab.netlify.app/projects
 [linkedin]: https://www.linkedin.com/in/ankit-verma-03308215a/
